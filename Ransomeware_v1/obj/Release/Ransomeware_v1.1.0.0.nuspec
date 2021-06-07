@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ransomeware_v1</id>
+    <version>1.0.0</version>
+    <authors>Ransomeware_v1</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Discord.Net" version="2.4.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Tailieu\UIT\CCHDCMD\DoAnLab\Ransomeware_v1\bin\Release\netcoreapp3.1\win-x64\Ransomeware_v1.runtimeconfig.json" target="lib\netcoreapp3.1\Ransomeware_v1.runtimeconfig.json" />
+    <file src="D:\Tailieu\UIT\CCHDCMD\DoAnLab\Ransomeware_v1\bin\Release\netcoreapp3.1\win-x64\Ransomeware_v1.dll" target="lib\netcoreapp3.1\Ransomeware_v1.dll" />
+  </files>
+</package>
